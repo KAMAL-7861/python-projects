@@ -1,0 +1,12 @@
+name = "kamala"
+size = len(name)
+if size % 2 == 0:
+    middle_index = size // 2   # Subtract 1 for zero-based indexing
+    print("Middle characters:", name[middle_index - 1], "and", name[middle_index])
+else:
+    middle_index = size // 2
+
+    middle_index = int(middle_index)  # Convert middle_index to an integer explicitly
+
+    middle_character = name[middle_index]
+    print("Middle character:", middle_character)
